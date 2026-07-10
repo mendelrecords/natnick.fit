@@ -64,3 +64,11 @@ align-items:center;
 }
 
 .vid{
+  margin: auto;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+
+
