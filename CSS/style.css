@@ -38,9 +38,9 @@ height: auto;
 }
 
 .gallery{
-columns: 3;
+columns: 4;
 justify-content: center;
-gap: 20px;
+gap: 10px;
 
 }
 
