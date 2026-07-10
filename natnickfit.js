@@ -20,7 +20,7 @@ const images = [
         img.setAttribute("src", nextImage)
         img.style.left = x + "px"
         img.style.top = y + "px"
-        img.style.transform = "translate(-50%, -50%) scale(0.25) position:absolute"
+        img.style.transform = "translate(-50%, -50%) scale(0.25)"
 
         document.body.appendChild(img)
         i = i + 1
