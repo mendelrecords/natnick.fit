@@ -18,28 +18,49 @@ font-family: 'DM Sans', sans-serif;
   color: white;
 }
 
-.main{
-margin: auto;
+
+
+
+
+main{
 margin-top: 30px;
 justify-content: center;
 align-content: center;
-align-items: center;
-display: flex;
 gap: 20px;
+
+display:flex;
+max-width:980px;
+margin:auto;
+align-items:center;
+
+
 }
 
-img{
 
-position: absolute;
-transform: translate(-50%, -50%) scale(.25);
+.container{
+  position: relative;
+  color: black;
+  gap: 20px;
+  display:flex;
+max-width:980px;
+margin:auto;
+align-items:center;
+
+}
+
+
+.maintext{
+  padding: 10px;
+  float: right;
+  text-align: left;
+}
+
+
+.gallery{
+  columns: 4;
+  justify-content: center;
+  gap: 10px;
+
 }
 
 .vid{
-  margin: auto;
-  justify-content: center;
-  align-content: center;
-  
-}
-
-
-
