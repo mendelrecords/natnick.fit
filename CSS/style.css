@@ -45,6 +45,7 @@ align-items:center;
 max-width:980px;
 margin:auto;
 align-items:center;
+transform:  scale(1);
 
 }
 
@@ -55,12 +56,21 @@ align-items:center;
   text-align: left;
 }
 
+img{
+transform: translate(-50%, -50%) scale(0.25);
+position: absolute;
+}
 
 
 .gallery{
   columns: 4;
   justify-content: center;
   gap: 10px;
+  position: relative;
+  color: black;
+margin:auto;
+align-items:center;
+transform:  scale(1);
 
 }
 
