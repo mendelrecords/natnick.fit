@@ -16,4 +16,33 @@ const images = [
         
         const nextImage = images[i]
 
-        const img = docume
+        const img = document.createElement("img")
+        img.setAttribute("src", nextImage)
+        img.style.left = x + "px"
+        img.style.top = y + "px"
+        img.style.transform = "translate(-50%, -50%) scale(0.25)"
+
+        document.body.appendChild(img)
+        i = i + 1
+
+        if (i >= images.length){
+
+            i = 0
+        }
+
+
+    }
+
+  document.addEventListener("click", function (event) {
+
+    event.preventDefault()
+    placeImage(event.pageX, event.pageY)
+
+  })
+
+  document.addEventListener("touchend", function (event){
+
+    event.preventDefault()
+    placeImage(event.pageX, event.pageY)
+
+  })
