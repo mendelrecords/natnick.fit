@@ -55,10 +55,8 @@ align-items:center;
   text-align: left;
 }
 
-.img{
 
-  position: absolute;
-}
+
 .gallery{
   columns: 4;
   justify-content: center;
